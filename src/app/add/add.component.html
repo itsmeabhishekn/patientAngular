@@ -1,0 +1,37 @@
+<app-nav></app-nav>
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3">
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label">User Name</label>
+                    <input name="username" [(ngModel)]="username" type="text" class="form-control">
+                </div>
+              
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <label for="" class="form-label">Address</label>
+                <input name="address" [(ngModel)]="address" type="text" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label">Contact Number</label>
+                    <input name="number" [(ngModel)]="number" type="number" name="" id="" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <form action="" class="form-label">Date of appointment</form>
+                    <input  name="date" [(ngModel)]="date" type="date" name="" id="" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label">Url</label>
+                    <input name="url" [(ngModel)]="url" type="text" name="" id="" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label  for="" class="form-label">Doctor Name</label>
+                    <input name="doctor" [(ngModel)]="doctor" type="text" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <button (click)="eventEntry()" class="btn btn-dark">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
